@@ -1,0 +1,24 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.TODO-header {
+    background-color: #9400d3;
+    padding: 20px 30px;
+}
+
+.TODO-header-title {
+    color: #fff;
+}   
+
+/* table,
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+} */
