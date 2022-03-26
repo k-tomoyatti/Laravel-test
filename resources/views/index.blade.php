@@ -12,9 +12,9 @@
         <h1 class="TODO-header-title">TODOリスト</h1>
     </header>
 
-    <div>
+    <div class="TODO-table">
         <input type="text">
-        <button>追加</button>
+        <a href="" class="btn btn--red btn--radius btn--cubic">追加<i class="fas fa-angle-right fa-position-right"></i></a>
     </div>
 
 
