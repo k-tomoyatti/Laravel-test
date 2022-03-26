@@ -42,16 +42,28 @@ border-radius: 0.5rem;
 
 /* /////////header///////// */
 
-.TODO-header {
+.header {
     background-color: #9400d3;
     padding: 20px 30px;
 }
 
-.TODO-header-title {
+.header .title {
     color: #fff;
 }   
 
 /* ////////////div//////////// */
+
+.add-task {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.add-task .input {
+    padding: 8px;
+    width: 500px;
+    margin-right: 20px;
+}
 
 a.btn--red.btn--cubic {
     border-bottom: 5px solid #2e0240;

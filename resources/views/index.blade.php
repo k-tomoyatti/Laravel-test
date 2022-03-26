@@ -8,12 +8,12 @@
 </head>
 
 <body>
-    <header class="TODO-header">
-        <h1 class="TODO-header-title">TODOリスト</h1>
+    <header class="header">
+        <h1 class="title">TODOリスト</h1>
     </header>
 
-    <div class="TODO-table">
-        <input type="text">
+    <div class="add-task">
+        <input type="text" class="input" placeholder="タスク名">
         <a href="" class="btn btn--red btn--radius btn--cubic">追加<i class="fas fa-angle-right fa-position-right"></i></a>
     </div>
 
