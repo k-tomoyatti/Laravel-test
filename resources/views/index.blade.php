@@ -13,8 +13,13 @@
     </header>
 
     <div class="add-task">
-        <input type="text" class="input" placeholder="タスク名">
-        <a href="" class="btn btn--red btn--radius btn--cubic">追加<i class="fas fa-angle-right fa-position-right"></i></a>
+        <form action="{{ url('/task')}}" method="post">
+            {{ csrf_field() }}
+            <input type="text" class="input" placeholder="タスク名" name="task">
+            <!-- <a href="" class="btn btn--red btn--radius btn--cubic">追加<i class="fas fa-angle-right fa-position-right"></i></a> -->
+            <input type="submit" name="add">
+        </form>
+
     </div>
 
 
@@ -30,7 +35,7 @@
             <td>The table body</td>
             <td>with two columns</td>
         </tr>
-    </tbody> -->
-</table>
+    </tbody>
+    </table> -->
 </body>
 </html>

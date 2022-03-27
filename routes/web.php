@@ -17,3 +17,10 @@ Route::get('/', function () {
     return view('index');
 });
 
+// Route::get('/added-task', function () {
+//     return view('addedTask');
+// });
+
+Route::view('/task', 'task');
+
+Route::post('/task', 'App\Http\Controllers\TasksController@add');
