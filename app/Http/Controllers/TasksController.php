@@ -18,4 +18,10 @@ class TasksController extends Controller
         ];
         return view('task', $response);
     }
+
+    public function index()
+    {
+        Log::debug(1);
+    }
+
 }
