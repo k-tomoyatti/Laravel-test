@@ -19,7 +19,12 @@
             <!-- <a href="" class="btn btn--red btn--radius btn--cubic">追加<i class="fas fa-angle-right fa-position-right"></i></a> -->
             <input type="submit" name="add">
         </form>
+    </div>
 
+    <div>
+        @foreach ($tasks as $task)
+            <div>{{$task->name}}</div>
+        @endforeach
     </div>
 
 

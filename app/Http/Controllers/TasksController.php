@@ -10,7 +10,6 @@ class TasksController extends Controller
 {
     public function add(Request $request)
     {
-        // Log::debug($request);
         Task::addTask($request['task']);
         
         $response = [
@@ -22,8 +21,11 @@ class TasksController extends Controller
     public function index()
     {
         $tasks = Task::getTasks();
-        Log::debug($tasks);
-        return view('index',$tasks);
+
+        $response = [
+            'tasks' => $tasks
+        ];
+        return view('index', $response);
     }
 
 }
