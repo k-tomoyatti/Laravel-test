@@ -21,7 +21,9 @@ class TasksController extends Controller
 
     public function index()
     {
-        Log::debug(1);
+        $tasks = Task::getTasks();
+        Log::debug($tasks);
+        return view('index',$tasks);
     }
 
 }
