@@ -2,95 +2,91 @@
     margin:0;
     padding:0;
 }
-
 /*まずはお決まりのボックスサイズ算出をborer-boxに */
 *,
 *:before,
 *:after {
--webkit-box-sizing: inherit;
-box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
 }
-
 html {
--webkit-box-sizing: border-box;
-box-sizing: border-box;
-font-size: 62.5%;/*rem算出をしやすくするために*/
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 62.5%;/*rem算出をしやすくするために*/
 }
-
 .btn,
 a.btn,
 button.btn {
-font-size: 1.6rem;
-font-weight: 700;
-line-height: 1.5;
-position: relative;
-display: inline-block;
-padding: 1rem 4rem;
-cursor: pointer;
--webkit-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
-user-select: none;
--webkit-transition: all 0.3s;
-transition: all 0.3s;
-text-align: center;
-vertical-align: middle;
-text-decoration: none;
-letter-spacing: 0.1em;
-border-radius: 0.5rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    border-radius: 0.5rem;
 }
-
-/* /////////header///////// */
-
 .header {
     background-color: #9400d3;
     padding: 20px 30px;
 }
-
 .header .title {
     color: #fff;
-}   
-
-/* ////////////div//////////// */
-
+}
 .add-task {
     display: flex;
     justify-content: center;
     padding: 30px;
 }
-
 .add-task .input {
     padding: 8px;
     width: 500px;
-    margin-right: 20px;
+    margin-right: 10px;
 }
-
+.add-task .add-btn {
+    cursor: pointer;
+    width: 70px;
+}
 a.btn--red.btn--cubic {
     border-bottom: 5px solid #2e0240;
     text-decoration: none;
     background-color: #9400d3;
     color: #fff;
 }
-
 a.btn--red.btn--cubic:hover {
-margin-top: 3px;
-border-bottom: 2px solid #2e0240;
+    margin-top: 3px;
+    border-bottom: 2px solid #2e0240;
 }
-
 a.btn--radius {
-border-radius: 100vh;
+    border-radius: 100vh;
 }
-
 .fa-position-right {
-position: absolute;
-top: calc(50% - .5em);
-right: 1rem;
+    position: absolute;
+    top: calc(50% - .5em);
+    right: 1rem;
 }
-
-
-.task-table {
-    /* display: flex;
-    justify-content: center; */
-
-    margin-left: 35%;
+.tasks-table table {
+    margin: 0 auto; 
+}
+/* タスク一覧: タスク名テキストボックス */
+.tasks-table .task-name {
+    width: 350px;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 500px;
+}
+/* タスク一覧: 更新・削除ボタン */
+.tasks-table button {
+    margin-left: 10px;
+    cursor: pointer;
 }
