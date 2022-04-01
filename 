@@ -1,0 +1,103 @@
+[33mcommit 71a96ad8f3488d6af754ba316845f5bfbdd69863[m[33m ([m[1;36mHEAD -> [m[1;32mi1[m[33m, [m[1;31morigin/i1[m[33m)[m
+Author: k-masasa <kuangshixionggu@gmail.com>
+Date:   Wed Mar 30 13:18:38 2022 +0900
+
+    #1 レイアウト調整
+
+[33mcommit 55c4d74898a1e4e5f125c0ab65453271f62a7762[m
+Merge: 47a3258 0a1ff97
+Author: k-masasa <kuangshixionggu@gmail.com>
+Date:   Wed Mar 30 12:50:44 2022 +0900
+
+    Merge branch 'i1' of https://github.com/k-tomoyatti/Laravel-test into i1
+
+[33mcommit 0a1ff977828100b5e16c3d56aac9a1b7754bff30[m
+Author: k-tomoyatti <kumatomo.0610@outlook.jp>
+Date:   Tue Mar 29 23:56:49 2022 +0900
+
+    タスク一覧のレイアウト
+
+[33mcommit cb3c611173f0182415999f4863c98a0d69df3dba[m
+Author: k-tomoyatti <kumatomo.0610@outlook.jp>
+Date:   Mon Mar 28 23:52:01 2022 +0900
+
+    タスク一覧の取得とVIEWに表示
+
+[33mcommit 47a32583775f4ff07117dfc32c7949c468f964d8[m
+Merge: 1ae3246 afc1325
+Author: k-masasa <kuangshixionggu@gmail.com>
+Date:   Mon Mar 28 23:20:14 2022 +0900
+
+    Merge branch 'i1' of https://github.com/k-tomoyatti/Laravel-test into i1
+
+[33mcommit afc132506810dd905138b70364d5aa4f681ec897[m
+Author: k-tomoyatti <kumatomo.0610@outlook.jp>
+Date:   Mon Mar 28 23:19:44 2022 +0900
+
+    #1 タスク一覧の取得
+
+[33mcommit 1ae32465673f51d2901aebfc741b98215be856b5[m
+Author: k-masasa <kuangshixionggu@gmail.com>
+Date:   Mon Mar 28 22:26:12 2022 +0900
+
+    package-lock.json
+
+[33mcommit d367310df6e232b65e5ef806eaa96d805ffb6ad0[m
+Author: k-tomoyatti <kumatomo.0610@outlook.jp>
+Date:   Mon Mar 28 22:22:32 2022 +0900
+
+    #1 test
+
+[33mcommit f7d0a0785b48cd18a4d0b00ad88b489888e6aca6[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: k-tomoyatti <kumatomo.0610@outlook.jp>
+Date:   Sun Mar 27 13:08:17 2022 +0900
+
+    タスク登録機能実装完了
+
+[33mcommit c0302acaa92d1100d82c567405892315ce338f28[m
+Author: k-tomoyatti <kumatomo.0610@outlook.jp>
+Date:   Sun Mar 27 11:59:35 2022 +0900
+
+    タスク登録機能実装中
+
+[33mcommit 83ab42a3f8e80d6df9a12e8798b57a0ff1807563[m
+Author: k-tomoyatti <kumatomo.0610@outlook.jp>
+Date:   Sat Mar 26 20:55:22 2022 +0900
+
+    タスク登録機能実装中
+
+[33mcommit 891aa16bfcf57af2c49001598a44c1d9e395e3ab[m
+Author: k-tomoyatti <kumatomo.0610@outlook.jp>
+Date:   Sat Mar 26 20:15:01 2022 +0900
+
+    タスク登録機能実装中
+
+[33mcommit 0fe813d9505b012b933a5767aa49201f9b4b088e[m
+Author: k-tomoyatti <kumatomo.0610@outlook.jp>
+Date:   Thu Mar 24 22:54:22 2022 +0900
+
+    タスク登録機能実装中
+
+[33mcommit 4ae4eba8fb1d1719af3614891cefa9aa1ae0f7c7[m
+Author: k-tomoyatti <kumatomo.0610@outlook.jp>
+Date:   Thu Mar 24 21:47:21 2022 +0900
+
+    ファイル作成
+
+[33mcommit e144fcce7ccaae9befb76d2e323ac99b21b92a77[m
+Author: k-tomoyatti <kumatomo.0610@outlook.jp>
+Date:   Thu Mar 24 00:01:30 2022 +0900
+
+    ルーティング変更
+
+[33mcommit 11e812dfb94255aacef7d69954f87fbea3a77c7b[m
+Author: k-tomoyatti <kumatomo.0610@outlook.jp>
+Date:   Sun Mar 20 23:19:24 2022 +0900
+
+    Laravel files
+
+[33mcommit 150856c525efb524e752142b7559cc9bd93e5aeb[m
+Author: k-tomoyatti <kumatomo.0610@outlook.jp>
+Date:   Sun Mar 20 23:13:18 2022 +0900
+
+    first commit
