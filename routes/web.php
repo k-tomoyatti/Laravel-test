@@ -19,3 +19,5 @@ Route::view('/task', 'task');
 
 Route::post('/task', 'App\Http\Controllers\TasksController@add');
 
+Route::post('/task/delete', 'App\Http\Controllers\TasksController@delete');
+

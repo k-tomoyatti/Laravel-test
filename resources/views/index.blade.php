@@ -22,8 +22,8 @@
         <table>
             @foreach ($tasks as $task)
                 <tr>
-                    <!-- TODO: 別Issueで更新・削除の実装時、formタグを復活させる -->
-                    <!-- <form method="post"> -->
+                    <form action="{{ url('/task/delete')}}" method="post">
+                        {{ csrf_field() }}
                         <input type= "hidden" name= "id" value="{{ $task['id'] }}">
                         <td>
                             <input class="task-name" type="text" name="task-name" value="{{ $task['name'] }}">
@@ -32,9 +32,9 @@
                             <button>更新</button>
                         </td>
                         <td>
-                            <button>削除</button>
+                            <input class="add-btn" type="submit" name="delete" value="削除">
                         </td>
-                    <!-- </form> -->
+                    </form>
                 </tr>
             @endforeach
         </table>

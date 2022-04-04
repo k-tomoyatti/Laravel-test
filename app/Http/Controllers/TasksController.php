@@ -28,4 +28,15 @@ class TasksController extends Controller
         return view('index', $response);
     }
 
+    public function delete(Request $request)
+    {
+        Log::debug($request);
+        // Task::addTask($request['task']);
+        
+        // $response = [
+        //     'task_name' => $request['task']
+        // ];
+        return view('index');
+    }
+
 }
