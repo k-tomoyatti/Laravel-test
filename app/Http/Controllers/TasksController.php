@@ -48,13 +48,10 @@ class TasksController extends Controller
      */
     public function deleteTask($id)
     {
-        // 削除するタスクのid。ログは要削除↓
-        Log::debug($id);
-
         // TODO: Modelでタスクの削除
+        Task::deleteTask($id);
 
-        // TODO: タスクの削除画面を表示
+        // タスクの削除画面を表示
         return view('delete');
     }
-
 }

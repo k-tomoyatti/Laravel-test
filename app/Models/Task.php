@@ -22,4 +22,9 @@ class Task extends Model
     {
         return self::get();
     }
+
+    public static function deleteTask($task_id)
+    {
+        self::where('id', $task_id)->delete();
+    }
 }
