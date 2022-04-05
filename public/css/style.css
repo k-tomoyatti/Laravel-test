@@ -53,10 +53,13 @@ button.btn {
     width: 500px;
     margin-right: 10px;
 }
-.add-task .add-btn {
-    cursor: pointer;
+.add-task .submit-button {
     width: 70px;
 }
+.cursor-pointer {
+    cursor: pointer;
+}
+
 a.btn--red.btn--cubic {
     border-bottom: 5px solid #2e0240;
     text-decoration: none;
