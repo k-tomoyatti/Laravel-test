@@ -54,6 +54,7 @@ class TasksController extends Controller
         // TODO: Modelでタスクの削除
 
         // TODO: タスクの削除画面を表示
+        return view('delete', $id);
     }
 
 }

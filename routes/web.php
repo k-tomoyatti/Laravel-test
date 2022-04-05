@@ -16,9 +16,6 @@ use Illuminate\Support\Facades\Route;
 // URLが「/」でアクセスされたとき、TasksControllerのindex()にルーティング (処理を流す)
 Route::get('/', 'App\Http\Controllers\TasksController@index');
 
-// URLが「/task」でアクセスされたとき、viewファイルのtask.blade.phpを画面に表示する。
-Route::view('/task', 'task');
-
 // URLが「/task」でPOST(タスク追加ボタンを押下)されたとき、TasksControllerのadd()にルーティング
 Route::post('/task', 'App\Http\Controllers\TasksController@add');
 

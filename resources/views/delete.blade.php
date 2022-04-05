@@ -12,7 +12,7 @@
         <h1 class="title">TODOリスト</h1>
     </header>
     <div>
-        タスク「{{$task_name}}」を登録しました。
+        タスクを削除しました。
     </div>
     <a href="/" class="btn btn--red btn--radius btn--cubic">戻る<i class="fas fa-angle-right fa-position-right"></i></a>
 </body>
