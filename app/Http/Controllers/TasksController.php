@@ -44,14 +44,25 @@ class TasksController extends Controller
 
     /**
      * タスクの削除
-     * 実装中
      */
     public function deleteTask($id)
     {
-        // TODO: Modelでタスクの削除
+        // Modelでタスクの削除
         Task::deleteTask($id);
 
         // タスクの削除画面を表示
         return view('delete');
+    }
+
+
+    /**
+     * タスクの全削除
+     */
+    public function destroy($id)
+    {
+        $task = Task::findOrFail($id);
+        $task->delete();
+
+        return redirect('/');
     }
 }

@@ -6,6 +6,7 @@
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <title>to-doリスト</title>
 </head>
+
 <body>
     <header class="header">
         <h1 class="title">TODOリスト</h1>
@@ -38,6 +39,10 @@
                 </tr>
             @endforeach
         </table>
+
+        <!-- {!! Form::model($task, ['route' => ['tasks.destroy', $task->id], 'method' => 'delete']) !!}
+        {!! Form::submit('削除', ['class' => 'btn btn-danger']) !!}
+        {!! Form::close() !!} -->
     </div>
 </body>
-</html>
+</html> 
