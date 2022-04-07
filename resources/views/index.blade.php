@@ -35,14 +35,20 @@
                             {{ method_field('delete') }}
                             <input class="cursor-pointer" type="submit" value="削除">
                         </form>
+
+                            
                     </td>
                 </tr>
             @endforeach
         </table>
 
-        <!-- {!! Form::model($task, ['route' => ['tasks.destroy', $task->id], 'method' => 'delete']) !!}
-        {!! Form::submit('削除', ['class' => 'btn btn-danger']) !!}
-        {!! Form::close() !!} -->
+        <form action="/task/{{ $task }}" method="post">
+            {{ csrf_field() }}
+            {{ method_field('alldelete') }}
+            <input class="cursor-pointer" type="submit" value="全削除">
+        </form> 
+
+
     </div>
 </body>
 </html> 
