@@ -22,5 +22,5 @@ Route::post('/task', 'App\Http\Controllers\TasksController@add');
 // URLが「/task/{削除するタスクのid}」でDELETE(タスク削除ボタンを押下)されたとき、TasksControllerのdelete()にルーティング
 Route::delete('/task/{id}', 'App\Http\Controllers\TasksController@deleteTask');
 
-// URLが「/task/{削除するタスクのid}」でDELETE(タスク削除ボタンを押下)されたとき、TasksControllerのdelete()にルーティング
-Route::delete('', 'App\Http\Controllers\TasksController@alldeleteTask'); 
+// URLが「/alltask/」でDELETE(タスク全削除ボタンを押下)されたとき、TasksControllerのalldelete()にルーティング
+Route::alldelete('/alltask', 'App\Http\Controllers\TasksController@alldeleteTask'); 

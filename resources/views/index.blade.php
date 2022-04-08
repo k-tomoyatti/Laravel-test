@@ -42,7 +42,7 @@
             @endforeach
         </table>
 
-        <form action="/task/{{ $task }}" method="post">
+        <form action="{{ url('/alltask/') }}" method="post">
             {{ csrf_field() }}
             {{ method_field('alldelete') }}
             <input class="cursor-pointer" type="submit" value="全削除">
